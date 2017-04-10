@@ -1,0 +1,55 @@
+#+TITLE: Haskell
+
+* Philosophy
+  1. pure function
+  2. type for engineering
+
+
+* Basics
+ 
+** Rules
+  
+*** Cpaitalization in Haskell
+    1. Functions, Parameters and Bindings must start with a 
+/lowercase/ letter. 
+In case of an operator name, it *must not* start with :.
+    2. Types, constructors, type classes and kinds must start
+with an /uppercase/ letter. If using an operator name, it
+*must* start with :.
+
+
+* Practice
+
+** packages
+
+*** wreq
+   An easy-to-use HTTP client library.
+
+   A web client library that is designed for ease of use.
+
+    [[https://www.stackage.org/lts-8.8/hoogle?q=wreq][Hoogle-LTS-8.8-Search]]
+    [[http://www.serpentine.com/wreq/tutorial.html#uploading-data-via-post][wreq-tutorial]]
+
+** intero
+
+** ghci
+
+*** tips
+
+**** multi-line input
+ Prelude> :{ 
+ Prelude| 1/2 + 
+ Prelude| 1/3 
+ Prelude| :} 
+ 0.8333333333333333
+   **Warning* to start a multiline block :{ must be the only text entered in the first line.
+
+* Language Extended
+  
+** String
+
+__ ghci> :set -XOverloadedStrings
+
+If you’re using wreq from a Haskell source file, put a pragma at the top of your file:
+
+{-# LANGUAGE OverloadedStrings #-}
