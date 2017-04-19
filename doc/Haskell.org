@@ -34,6 +34,7 @@ with an /uppercase/ letter. If using an operator name, it
 
 ** ghci
 
+
 *** tips
 
 **** multi-line input
@@ -44,6 +45,38 @@ with an /uppercase/ letter. If using an operator name, it
  0.8333333333333333
    **Warning* to start a multiline block :{ must be the only text entered in the first line.
 
+
+* Snippets
+
+** real word haskell
+   
+*** Maybe >>= shortup?
+
+**** text
+  let forever a = a >> forever a
+  forever Nothing
+ Nothing
+  let trueForever a = a >> trueForever a >> trueForever a
+  trueForever Nothing
+ Nothing
+   
+    *YES, Nothing >>= _ = Nothing will cause left shortup*
+
+**** explain
+    this is the comment:
+     As of September 2012, (>>) does short circuit with Nothing.
+
+ To test it, try in ghci:
+
+ let forever a = a >> forever a
+ forever Nothing
+
+ If every (>>) did match a Nothing on the left and return a "new" Nothing, this computation should never end.
+ Instead, it's istantaneous, because of the implementation of (>>) for maybe:
+
+ Nothing >> _ = Nothing
+
+ which short-circuits the computation the first time a Nothing is encountered.
 * Language Extended
   
 ** String
