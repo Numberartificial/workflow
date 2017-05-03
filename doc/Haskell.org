@@ -1,5 +1,7 @@
 #+TITLE: Haskell
 
+Haskell is something worth trainning daily.
+
 * Philosophy
   1. pure function
   2. type for engineering
@@ -49,6 +51,12 @@ with an /uppercase/ letter. If using an operator name, it
 * Snippets
 
 ** real word haskell
+
+   
+*** Monad
+    which is a key point.
+
+**** 
    
 *** Maybe >>= shortup?
 
@@ -77,6 +85,15 @@ with an /uppercase/ letter. If using an operator name, it
  Nothing >> _ = Nothing
 
  which short-circuits the computation the first time a Nothing is encountered.
+
+
+*** lookupM :: (MonadPlus m, Eq a) => a -> [(a, b)] -> m b
+
+** functions
+
+*** foldl :: Foldable t => (b -> a -> b) -> b -> t a -> b
+
+*** lookup :: Eq a => a -> [(a, b)] -> Maybe a
 * Language Extended
   
 ** String
@@ -86,3 +103,17 @@ __ ghci> :set -XOverloadedStrings
 If you’re using wreq from a Haskell source file, put a pragma at the top of your file:
 
 {-# LANGUAGE OverloadedStrings #-}
+
+** Deriving
+ 
+*** {-# LANGUAGE GeneralizedNewtypeDeriving #-}
+
+As its name suggests, the GeneralizedNewtypeDeriving extension
+ broadens our ability to derive typeclass instances, and it 
+is specific to newtype declarations. If the type we're wrapping 
+is an instance of any typeclass, the extensions can automatically
+ make our new type an instance of that typeclass as follows
+
+e.g:
+newtype Supply s a = S (State [s] a)
+  deriving (Functor, Applicative, Monad)

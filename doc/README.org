@@ -1,1 +1,30 @@
-File to save in: ~/work/github/workflow/
+#+TITLE 怎样推进项目
+
+* Tools
+
+** 项目文件统一版本控制 VCS(Version control system)
+ 
+*** git (distributed VCS)
+   
+**** github 
+
+* DevOops
+
+** CibFintech
+
+*** 项目运维操作及管理
+
+**** AB双运维人员
+
+***** A操作、B执行
+*** 云计算事业部-职责划分
+偏系统基础服务：
+   1.生产数据备份
+   2.服务器基础设施运维及故障处理
+
+**项目运维人员**：
+   1.应用运维及故障处理
+   2.业务数据监控
+
+**** 用户管理
+     云计算事业部负责应用用户的建立及权限管理
