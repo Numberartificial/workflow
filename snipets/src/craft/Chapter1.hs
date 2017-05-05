@@ -13,7 +13,7 @@
 -------------------------------------------------------------------------
 
 module Chapter1 where
-import Pictures hiding (rotate)
+import Craft.Pictures hiding (rotate)
 
 -- A first definition, of the integer value, size.
 

@@ -94,6 +94,15 @@ with an /uppercase/ letter. If using an operator name, it
 *** foldl :: Foldable t => (b -> a -> b) -> b -> t a -> b
 
 *** lookup :: Eq a => a -> [(a, b)] -> Maybe a
+
+ 
+** type
+
+*** Functor
+    instance Functor ((->) r) where
+    fmap f g = f . g
+    ->
+     { fmap (+2) (+3) 10 == 15}
 * Language Extended
   
 ** String
