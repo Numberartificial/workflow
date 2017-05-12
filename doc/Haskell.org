@@ -20,6 +20,17 @@ with an /uppercase/ letter. If using an operator name, it
 *must* start with :.
 
 
+** Operator
+
+*** infixity
+   
+infixl 5 :::&
+data L' a = N | a :::& L' a
+
+2 ::: & (3 :::& N)
+
+*NOTE* bracket MUST add 
+
 * Practice
 
 ** packages
@@ -95,6 +106,12 @@ with an /uppercase/ letter. If using an operator name, it
 
 *** lookup :: Eq a => a -> [(a, b)] -> Maybe a
 
+*** (.) :: (b -> c) -> (a -> b) -> a -> c
+(.) . (.) = (b -> c) -> (a1 -> a2 -> b) -> a1 -> a2 -> c
+
+*** fmap :: Functor f => (a -> b) -> f a -> f b
+(fmap . fmap)::(a -> b) -> f (f1 a) -> f (f1 b)
+
  
 ** type
 
@@ -103,6 +120,21 @@ with an /uppercase/ letter. If using an operator name, it
     fmap f g = f . g
     ->
      { fmap (+2) (+3) 10 == 15}
+
+** Monad , still monad
+  
+*** In Practice
+
+**** functors: you apply a function to a wrapped<Functor> value using fmap.
+
+**** applicatives: you apply a wrapped<Applicative> function to a wrapped<Applicative>value using <*> or liftA.
+
+**** monads: you apply (or /*bind*/) a function which return a wrapped<Monad> value, to a wrapped value using >>= or liftM.
+
+** Arrows
+  functions are arrows.
+  a -> b is a representation of (->) a b
+  
 * Language Extended
   
 ** String
@@ -126,3 +158,18 @@ is an instance of any typeclass, the extensions can automatically
 e.g:
 newtype Supply s a = S (State [s] a)
   deriving (Functor, Applicative, Monad)
+
+** Class typeclass 
+  
+*** {-# OPTIONS_GHC XFlexibleInstances #-}
+   跳出Haskell 2010 instance 基类型（Int...)和类型构造符应用于类型变量定义
+的类型（[..])  
+  ->
+   instance Info (Int -> Bool) where
+  examples = [(>0)]
+  size :: (Int -> Bool) -> Int
+  size  _  = 3
+
+  size ((>3) :: (Int -> Bool))
+3
+  

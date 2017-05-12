@@ -32,6 +32,9 @@ executable snipets-exe
                      , old-locale == 1.0.*
                      , time >= 1.1
                      , HUnit == 1.2.*
+                     , hxt
+                     , hxt-unicode
+                     , lens
 
   default-language:    Haskell2010
 

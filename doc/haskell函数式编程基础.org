@@ -5,7 +5,38 @@
 
 ** 输入 -> 输出
 
+** 验证与通用函数
+  
+*** 外延原理
+ 
+**** 如果两个函数作用于任意参数的结果相等，则两个函数相等
+
+
 
 * 类型
  
 ** 同类值的聚合
+
+** 性质
+ 
+*** quickCheck
+
+max :: Integer -> Integer -> Integer
+max x y
+  | x >= y      = x
+  | otherwise   = y
+
+-- An alternative definition of max which uses if ... then ... else ...
+
+max' :: Integer -> Integer -> Integer
+max' x y
+  = if x >= y then x else y
+
+prop_compareMax :: Integer -> Integer -> Bool
+prop_compareMax x y =
+    max x y == max' x y
+
+ghci> quickCheck prop_compareMax
+
+
+*** 

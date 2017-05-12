@@ -1,0 +1,23 @@
+Configuring haxl-0.5.0.0...
+Building haxl-0.5.0.0...
+Preprocessing library haxl-0.5.0.0...
+[ 1 of 11] Compiling Haxl.Core.Util   ( Haxl/Core/Util.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/Util.o )
+[ 2 of 11] Compiling Haxl.Core.StateStore ( Haxl/Core/StateStore.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/StateStore.o )
+[ 3 of 11] Compiling Haxl.Core.ShowP  ( Haxl/Core/ShowP.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/ShowP.o )
+[ 4 of 11] Compiling Haxl.Core.Types  ( Haxl/Core/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/Types.o )
+[ 5 of 11] Compiling Haxl.Core.RequestStore ( Haxl/Core/RequestStore.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/RequestStore.o )
+[ 6 of 11] Compiling Haxl.Core.Exception ( Haxl/Core/Exception.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/Exception.o )
+[ 7 of 11] Compiling Haxl.Core.DataCache ( Haxl/Core/DataCache.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/DataCache.o )
+[ 8 of 11] Compiling Haxl.Core.Monad  ( Haxl/Core/Monad.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/Monad.o )
+[ 9 of 11] Compiling Haxl.Core.Memo   ( Haxl/Core/Memo.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core/Memo.o )
+[10 of 11] Compiling Haxl.Prelude     ( Haxl/Prelude.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Prelude.o )
+[11 of 11] Compiling Haxl.Core        ( Haxl/Core.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/Haxl/Core.o )
+Preprocessing executable 'monadbench' for haxl-0.5.0.0...
+[1 of 2] Compiling ExampleDataSource ( tests/ExampleDataSource.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/monadbench/monadbench-tmp/ExampleDataSource.o )
+[2 of 2] Compiling MonadBench       ( tests/MonadBench.hs, .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/monadbench/monadbench-tmp/MonadBench.o )
+Linking .stack-work/dist/x86_64-osx/Cabal-1.24.2.0/build/monadbench/monadbench ...
+Installing library in
+/Users/NumberArt/work/github/workflow/snipets/.stack-work/install/x86_64-osx/lts-8.12/8.0.2/lib/x86_64-osx-ghc-8.0.2/haxl-0.5.0.0-HZPG8LooB3yAweaX0LHF56
+Installing executable(s) in
+/Users/NumberArt/work/github/workflow/snipets/.stack-work/install/x86_64-osx/lts-8.12/8.0.2/bin
+Registering haxl-0.5.0.0...
