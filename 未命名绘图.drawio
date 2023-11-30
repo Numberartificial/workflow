@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T03:08:42.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="AZ3ugCEUSUOiYQ9vrnI7" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T03:11:47.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="kt5mS--mximuEpZ9sm7w" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1467" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -16,6 +16,11 @@
         <mxCell id="-YLz3ERWtDPP97lk-IGL-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-1" target="-YLz3ERWtDPP97lk-IGL-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-53" value="load table to calculate metrics" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YLz3ERWtDPP97lk-IGL-45">
+          <mxGeometry x="0.2434" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-1" value="db to scan" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="850" y="75" width="70" height="70" as="geometry" />
         </mxCell>
@@ -29,6 +34,9 @@
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-3" value="app.run()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="40" y="360" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-5" target="-YLz3ERWtDPP97lk-IGL-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-5" value="task generator" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="290" width="200" height="200" as="geometry" />
@@ -45,31 +53,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-15" value="«TaskConfigLoader»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="190" y="75" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-16" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-15">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="190" y="72.5" width="130" height="65" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-21" target="-YLz3ERWtDPP97lk-IGL-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="230" />
+              <mxPoint x="350" y="230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-24" value="load db/table/columns meta info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YLz3ERWtDPP97lk-IGL-23">
           <mxGeometry x="-0.1311" y="-1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="-2" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-21" value="«ScanMetaLoader»&lt;br&gt;&lt;b&gt;Component&lt;/b&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="65" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-22" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-21">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-27" y="7" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="500" y="65" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-33" value="Table_Level_Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="360" width="230" height="104" as="geometry" />
+          <mxGeometry x="570" y="338" width="230" height="104" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-35" value="+ table: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -80,16 +83,6 @@
         <mxCell id="-YLz3ERWtDPP97lk-IGL-36" value="+ split_keys: list[str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="-YLz3ERWtDPP97lk-IGL-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="450" y="391.5" as="sourcePoint" />
-            <mxPoint x="579.02" y="388.51" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="560" y="392" />
-              <mxPoint x="560" y="390" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-35" target="-YLz3ERWtDPP97lk-IGL-43">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="370" as="targetPoint" />
@@ -99,9 +92,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-43" value="Spark Table Calculator" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="920" y="299" width="200" height="200" as="geometry" />
+          <mxGeometry x="920" y="277" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-44" value="scan meta info with task_configs ignore rules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-43">
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-44" value="load one table data in to cluster memory and calculate column metrics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-43">
           <mxGeometry x="40" y="60" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-47" value="colum metric result" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
