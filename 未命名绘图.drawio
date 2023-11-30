@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T03:22:34.934Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Wtxs50_69C2RPXRdbC4m" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T03:23:31.801Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YDqc9E5SVBeitBsO91Sh" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1467" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
           <mxGeometry x="850" y="75" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-2" value="task_result" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="325" y="620" width="70" height="70" as="geometry" />
+          <mxGeometry x="730" y="660" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-3" target="-YLz3ERWtDPP97lk-IGL-5">
           <mxGeometry relative="1" as="geometry">
@@ -41,7 +41,7 @@
         <mxCell id="-YLz3ERWtDPP97lk-IGL-5" value="task generator" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="250" y="290" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-10" value="scan meta info with task_configs ignore rules" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-5">
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-10" value="scan meta info with task_configs &amp;lt;ignore rules&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-5">
           <mxGeometry x="40" y="60" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-15" target="-YLz3ERWtDPP97lk-IGL-5">
@@ -88,7 +88,7 @@
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-54" value="yied column metric" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YLz3ERWtDPP97lk-IGL-49">
           <mxGeometry x="-0.3515" y="1" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+            <mxPoint x="-46" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-43" value="Spark Table Calculator" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -98,10 +98,7 @@
           <mxGeometry x="40" y="60" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-47" value="colum_metric" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.stored_data;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="610" y="610" width="170" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-47" target="-YLz3ERWtDPP97lk-IGL-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="680" y="530" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-35">
           <mxGeometry relative="1" as="geometry">
@@ -119,6 +116,14 @@
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-62" value="&lt;h1&gt;task_result&lt;/h1&gt;&lt;pre&gt;CREATE TABLE task_result.column_metric&lt;br&gt;(&lt;br&gt;&amp;nbsp; &amp;nbsp; task_id String COMMENT &#39;任务ID&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; source_ts String COMMENT &#39;数据源的快照版本时间戳&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; db String,&lt;br&gt;&amp;nbsp; &amp;nbsp; tb String,&lt;br&gt;&amp;nbsp; &amp;nbsp; split_kv Map(String, String) COMMENT &#39;分区键值&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; column String,&lt;br&gt;&amp;nbsp; &amp;nbsp; metric String COMMENT &#39;统计指标&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; result Float64 COMMENT &#39;统计结果&#39;,&lt;br&gt;&amp;nbsp; &amp;nbsp; created_at DateTime Default now() COMMENT &#39;数据生成时间&#39;&lt;br&gt;) ENGINE = MergeTree()&lt;br&gt;ORDER BY (task_id, source_ts, db, tb, column, metric, created_at);&lt;/pre&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1120" y="610" width="500" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-47" target="-YLz3ERWtDPP97lk-IGL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-64" value="dump&lt;br&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YLz3ERWtDPP97lk-IGL-63">
+          <mxGeometry x="-0.45" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
