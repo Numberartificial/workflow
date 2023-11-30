@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T02:55:09.256Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="NfE9N15J7yqoyyQ6CArk" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T02:59:57.516Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="YfNN98iKeWSVuB4oJPki" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1467" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,16 +66,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-33" value="Table_Level_Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="340" width="140" height="104" as="geometry" />
+          <mxGeometry x="540" y="256" width="230" height="104" as="geometry" />
         </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-34" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-35" value="+ table: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
+          <mxGeometry y="26" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-35" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-38" value="+ clumn_level_metrics: dict[str, List]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
+          <mxGeometry y="52" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-36" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-36" value="+ split_keys: list[str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
+          <mxGeometry y="78" width="230" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="-YLz3ERWtDPP97lk-IGL-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="391.5" as="sourcePoint" />
+            <mxPoint x="579.02" y="388.51" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
