@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-30T03:14:27.736Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="fOEZQTZAUBdYBlPd_fgZ" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-30T03:17:39.026Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="emMaKrXnzR4-ApEWcone" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1467" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
           <mxGeometry x="500" y="65" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-33" value="Table_Level_Task" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="338" width="230" height="104" as="geometry" />
+          <mxGeometry x="520" y="338" width="230" height="104" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-35" value="+ table: str" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
           <mxGeometry y="26" width="230" height="26" as="geometry" />
@@ -83,11 +83,6 @@
         <mxCell id="-YLz3ERWtDPP97lk-IGL-36" value="+ split_keys: list[str]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-33">
           <mxGeometry y="78" width="230" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="-YLz3ERWtDPP97lk-IGL-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-35" target="-YLz3ERWtDPP97lk-IGL-43">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="870" y="370" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-43" target="-YLz3ERWtDPP97lk-IGL-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -97,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-43" value="Spark Table Calculator" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="920" y="277" width="200" height="200" as="geometry" />
+          <mxGeometry x="890" y="277" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-44" value="load one table data in to cluster memory and calculate column metrics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-YLz3ERWtDPP97lk-IGL-43">
           <mxGeometry x="40" y="60" width="130" height="90" as="geometry" />
@@ -107,6 +102,17 @@
         </mxCell>
         <mxCell id="-YLz3ERWtDPP97lk-IGL-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-47" target="-YLz3ERWtDPP97lk-IGL-2">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="-YLz3ERWtDPP97lk-IGL-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="890" y="376.5" as="targetPoint" />
+            <mxPoint x="800" y="377" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-YLz3ERWtDPP97lk-IGL-57" value="split table with split_keys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-YLz3ERWtDPP97lk-IGL-56">
+          <mxGeometry x="0.0286" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
